@@ -11,6 +11,10 @@ array: .word 1, 0, 1, 12, 0, 1, 4
 prog:
 #-----------------------------
 # Write your code here!
+    add t1 ,zero ,zero
+loop:
+    bne t1, a1, loop
+    slli 	
 # Do not remove the prog label or write code above it!
 #-----------------------------
 done:
